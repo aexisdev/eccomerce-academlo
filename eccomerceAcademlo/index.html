@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--? NORMALIZE CSS  -->
+    <link rel="stylesheet" href="/assets/normalize.css">
+        <!--? CUSTOM CSS  -->
+    <link rel="stylesheet" href="/assets/styles.css">
+        <!-- ? GOOGLE FONTS -->
+    <title>Eccomerce||Alexis gonzalez</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="bars" id="bars"></div>
+            <div class="content-icons">
+                <div  class="logo-img" id="inicio"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#card-content">Selecion</a></li>
+                    <li><a href="#contacto">Contactanos</a></li>
+                    <li> 
+                        <div class="card-carrito" id="card"></div>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="hero-container" id="hero">
+        <section class="hero">
+            <div class="container-hero">
+                    <h1 id="pedidos">Pide tu <span class="cafe">cafe favorito</span></h1>
+                    <h2>Todos los cafes a <span class="cafe">15$</span></h2>
+                <form>
+                    <fieldset>
+                        <input type="text" placeholder="Que te gustaria pedir..."/>
+                        <input type="submit" value="¡Listo!"/>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section class="selec">
+            <div class="container-selec">
+                <div class="image-container"></div>
+                <div class="texto-img">
+                    <h2>Todas tus <span class="marcas" id="marcas">marcas favoritas</span></h2>
+                    <ul>
+                        <li><span>✔️Café Molido Saula Premium Ecológico.</span></li>
+                        <li><span>✔️Café molido puro de Brasil Malongo.</span></li>
+                        <li><span>✔️Café Saula Gran Espresso Premium.</span></li>
+                        <li><span>✔️Café clásico tostado Illy. Café Molido.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <!-- ? <span>Escoje tu pedido</span> -->
+    <section class="mostrador">
+        <div class="container-card">
+            <h2>Pedidos en linea</h2>
+            <div class="card-content" id="card-content">
+                <div id="carta">
+                    <h4>Cafe negro</h4>
+                    <p>marca nesca</p>
+                    <div class="estrellas"></div>
+                    <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                    <button class="agregar-carrito" id="agregar-carrito">Agregar al carrito</button>
+                </div>
+                <div id="carta">
+                    <h4>Cafe negro</h4>
+                    <p>marca nesca</p>
+                    <div class="estrellas"></div>
+                    <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                    <button class="agregar-carrito" id="agregar-carrito">Agregar al carrito</button>
+                </div>
+                <div id="carta">
+                    <h4>Cafe negro</h4>
+                    <p>marca nesca</p>
+                    <div class="estrellas"></div>
+                    <p class="precio">$200 <span class="u-pull-rigth">$15</span></p>
+                    <button class="agregar-carrito" id="agregar-carrito">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--? footer seccion  -->
+    <footer>
+        <div class="footer" id="contacto">
+            <p>HECHO EN ACADEMLO 💜</p>
+        </div>
+    </footer>
+</body>
+<script src="/assets/index.js"></script>
+<script src="/assets/app.js"></script>
+</html>
